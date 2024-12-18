@@ -13,7 +13,7 @@ l = 0
 t = 0
 # rounds for rps
 r = 1
-# used to see if they have typed in thier name yet at line 272
+# used to see if they have typed in their name yet at line 272
 q = 0
 # rps list of things computer can pick
 pick = ["rock", "paper", "scissors"]
@@ -45,9 +45,9 @@ def winner(user_choice, computer_choice):
         w += 1
         return "You win! J becomes a bit more mad"
     elif user_choice not in pick:
-        print("You play ", user_choice," as J plays ", comupter_choice,". J says, \"What the heck is that?\" You respond, \"",user_choice,"?\"")
+        print("You play ", user_choice," as J plays ", computer_choice,". J says, \"What the heck is that?\" You respond, \"",user_choice,"?\"")
         wait(2)
-        print("\"Thats not a valid choice idiot\" J grabs you and chrushes you")
+        print("\"Thats not a valid choice idiot\" J grabs you and crushes you")
         ending()
     else:
         l += 1
@@ -83,7 +83,7 @@ print("The cover art is just abstract colors, and the disk is silver with no ind
 wait(1)
 print("You speed on over to your computer to play it. As you wait for it to load you go get something to drink.")
 wait(4)
-print("As you walk back into your room there is a thuding noise.")
+print("As you walk back into your room there is a thudding noise.")
 wait(5)
 print("Its your drink hitting the ground.")
 wait(6)
@@ -245,7 +245,7 @@ wait(1.5)
 print("Its a voice, but something about it does not sound right.")
 wait(2.5)
 
-print("It sounds mechanical... but it also sounds humanlike.")
+print("It sounds mechanical... but it also sounds human-like.")
 wait(2.5)
 
 print("You realize that you probably should not be focusing on what it sounds like, instead you focus on what it is saying.")
@@ -254,23 +254,23 @@ wait(2.5)
 print("As you focus on the words it is saying you hear, \"Welcome to THE GAME! Here you will play 3 different games to Escape with your life\"")
 wait(2.5)
 
-print("It continues to speak, never stoping to breathe; \"The first game is ROCK PAPER SCISSORS, the second game is GUESS THE NUMBER, the third game is TRIVIA ON GENERAL SUBJECTS.\"")
+print("It continues to speak, never stopping to breathe; \"The first game is ROCK PAPER SCISSORS, the second game is GUESS THE NUMBER, the third game is TRIVIA ON GENERAL SUBJECTS.\"")
 wait(2.5)
 
-print("It stops talking for a second and then says in a more harsh tone, \"Please Enter Name to agree to Terms and Condtitions\"")
+print("It stops talking for a second and then says in a more harsh tone, \"Please Enter Name to agree to Terms and Conditions\"")
 wait(1)
 
 while namec != "y":
     name = input("Come to think of it, you can't remember anything other than this room. What is your name? (TYPE IN NAME NOW)").title()
     namec = input(name + " Is this correct? y/n:")
     while namec != "n" and namec != "y":
-        namec = input("INVALID ANWSER \n"+ name+ " Is this correct? y/n:")
+        namec = input("INVALID ANSWER \n"+ name+ " Is this correct? y/n:")
 wait(1)
 
 print("after thinking for a moment you pick a name you do remember,", name,", although you know its not yours")
 wait(2.5)
 
-print("\"Please Enter Name To Agree To Terms And Condtitions\" it says louder and more harsh, thats when you notice the keyboard that is floating right in front of you")
+print("\"Please Enter Name To Agree To Terms And Conditions\" it says louder and more harsh, thats when you notice the keyboard that is floating right in front of you")
 wait(1.5)
 
 asw = input("Do you Type in your name?/n y/n:")
@@ -291,7 +291,7 @@ if asw == "n":
         asw = input("INVALID ANSWER \nDo you Type in your name now?/n y/n:")
     
     if asw == "n":
-        print("As you contiune to sit there in spite, the walls close in slowly, the keyboard is gone, and the voice says, \"QUITING GAME\". You panic as the walls slowly begin to close in faster and faster")
+        print("As you continue to sit there in spite, the walls close in slowly, the keyboard is gone, and the voice says, \"QUITTING GAME\". You panic as the walls slowly begin to close in faster and faster")
         wait(1.5)
 
         print("You try as much as you can to keep the walls from closing in more, all in vain. the walls become so close you can only stay there in a ball, but the walls don't care, They crush you")
@@ -324,10 +324,10 @@ wait(2)
 print("You wipe the spit off your mouth as you hear the voice again.")
 wait(1.5)
 
-print("\"Game 1, ROCK,PAPER,SCISSORS. RULES are as follows, ROCK beats SCISSORS, PAPER beats ROCK, SCISSORS beats PAPER, and you MUST win 3 times before J does to contiune\"")
+print("\"Game 1, ROCK,PAPER,SCISSORS. RULES are as follows, ROCK beats SCISSORS, PAPER beats ROCK, SCISSORS beats PAPER, and you MUST win 3 times before J does to continue\"")
 wait(2)
 
-print("\"Who the heck is J?\" You say aloud. You get your anwser as a Giant fist emerges from the ugly yellow wall, it makes a mouth with its hands as two evil looking googly eyes appear on top")
+print("\"Who the heck is J?\" You say aloud. You get your answer as a Giant fist emerges from the ugly yellow wall, it makes a mouth with its hands as two evil looking googly eyes appear on top")
 wait(2)
 
 print("In a booming voice the hand says, \"I am J, Ready to play?\"")
@@ -337,7 +337,7 @@ asw = input("You hesitate for a moment and then answer..? Pick y/n:")
 while asw != "n" and asw != "y":
     asw = input("INVALID ANSWER \nWhat do you answer?/n y/n:")
 if asw == "n":
-    print("\"No\" You say firmly. \"Wrong choice buddy\" says J in his booming voice. J grabs you and chrushes you in his hand")
+    print("\"No\" You say firmly. \"Wrong choice buddy\" says J in his booming voice. J grabs you and crushes you in his hand")
     wait(2)
 
     ending()
@@ -357,7 +357,7 @@ while w != 3 and l != 3:
     wait(1)
     r = r + 1
 if l == 3:
-    print("\"HAHAHA loser!\" J grabs you and slowly squezees you till you pop")
+    print("\"HAHAHA loser!\" J grabs you and slowly squeezes you till you pop")
     wait(2)
     print("After you die J covers himself in your fluids and learns all of your knowledge and becomes stronger")
     wait(2)
@@ -365,36 +365,36 @@ if l == 3:
 
     
 ##  if you fail to win 3 times
-##      hand grabs you and chrushes you 
+##      hand grabs you and crushes you 
 ##      quit game
 ##  else
 ##      Congrats on winning
-##      discribe the hand looking in extreame pain and become detached from wall bleeding
-##      discribe teleporting to a room with 2 pianos and spikes behind you
+##      describe the hand looking in extreme pain and become detached from wall bleeding
+##      describe teleporting to a room with 2 pianos and spikes behind you
 ##  start playing guess the number
-##  rules: you must guess the number in under 15 tries pressing the piano key that corespods to the number
+##  rules: you must guess the number in under 15 tries pressing the piano key that corresponds to the number
 ##  to the left is 1 and the far right is 100
-##  the piano keys fall out of the piano into a void diamention that opens in the piano
+##  the piano keys fall out of the piano into a void dimension that opens in the piano
 ##  have the option to stick hand into the void, if they do they get to decide how far they 
-##  put thier hand in options are "Just pinky" "pointer" "hand" "up to elbow" "up to shoulder" and "what the worst that could happen(head)
-##  you lose what you put into the void because the void is accually outerspace
+##  put their hand in options are "Just pinky" "pointer" "hand" "up to elbow" "up to shoulder" and "what the worst that could happen(head)
+##  you lose what you put into the void because the void is actually outerspace
 ##  if full body was put in void
-##      discribe the popping of their head as they are sucked into the void
+##      describe the popping of their head as they are sucked into the void
 ##      quit game
-##  if they put in sholder or elbow they are bleeding heavly
+##  if they put in shoulder or elbow they are bleeding heavily
 ##  they are reduced to 10 tries
 ##  if they fail to guess in 15 or 10 tries they are stabbed by the wall of spikes
-##  if they win, they are healed one level up, (if up to sholder they get thier upper arm back) and bleeding slows a bit
+##  if they win, they are healed one level up, (if up to shoulder they get their upper arm back) and bleeding slows a bit
 ##  congrats at guessing
-## you are then teleported to a jepordy style room but its all paper mache
+## you are then teleported to a jeopardy style room but its all paper mache
 ## you do trivia with 3 lives 
 ## 
 ##  if you won rps with no losses then you get 4 lives
 ## if you fail trivia then the paper mache unfolds and starts giving paper cuts, killing you by a thousand cuts
 ##  if you win trivia you wake up in the video game store where you bought the game and you are holding the game about to buy it
-## You Have all the injerys from the game
+## You Have all the injury from the game
 ## you freak out and snap the game in half causing a small explosion to go off and you are thrown to the back of the store and pass out,
-## you wake at the hosbital, handcuffed to the bed.
-##  a officer comes in and say you are being charged with terrorism and its a miricle you were not injered because the explosin demolish the building
-## you ask about your INJERY FROM GAME and a nurse comes in and says you always had that
+## you wake at the hospital, handcuffed to the bed.
+##  a officer comes in and say you are being charged with terrorism and its a miracle you were not injured because the explosion demolish the building
+## you ask about your INJURY FROM GAME and a nurse comes in and says you always had that
 
